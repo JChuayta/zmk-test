@@ -72,10 +72,10 @@
             //                    | GUI | MO3 | SPC |   | SPC |TRANS| ALT |
 
             bindings = <
-&kp PIPE         &kp EXCL      &kp AT        &kp HASH    &kp DLAR   &kp PERCENT      &kp AMPERSAND   &kp SLASH        &kp LPAR      &kp RPAR      &kp EQUAL       &kp BSPC
-&mt LSHIFT TAB   &kp DQT       &kp SQT       &kp LT      &kp GT     &kp PLUS         &kp ASTERISK    &kp TILDE        &kp LBRC      &kp RBRC      &kp GRAVE       &kp DEL
-&kp LCTRL        &trans        &trans        &kp BACKSLASH &kp CARET &kp MINUS        &kp QUESTION    &kp UNDER        &trans        &trans        &trans          &kp RSHIFT
-                                             &kp LGUI    &mo 3      &kp SPACE        &kp SPACE       &trans           &kp RALT
+&kp PIPE         &kp EXCL      &kp AT        &kp HASH    &kp DOLLAR     &kp PERCENT        &kp AMPERSAND   &kp SLASH        &kp LPAR      &kp RPAR      &kp EQUAL       &kp BSPC
+&mt LSHIFT TAB   &kp DQT       &kp SQT       &kp LESS_THAN &kp GREATER_THAN &kp PLUS        &kp ASTERISK    &kp TILDE        &kp LBRC      &kp RBRC      &kp GRAVE       &kp DEL
+&kp LCTRL        &trans        &trans        &kp BACKSLASH &kp CARET    &kp MINUS          &kp QUESTION    &kp UNDER        &trans        &trans        &trans          &kp RSHIFT
+                                             &kp LGUI    &mo 3          &kp SPACE          &kp SPACE       &trans           &kp RALT
             >;
         };
 
